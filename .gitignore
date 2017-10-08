@@ -1,0 +1,23 @@
+# a .gitignore file lists files and directories that will not be upload to a github repository
+# as a result sensitive files will never end up in someone else's clone of any code that I share on github
+# typically this should include files containing (database) passwords, or possibly files automatically created by an IDE
+# eg PHPStorm automatically creates an .idea folder in the project root to hold various configuration values
+
+# NB each file or folder to be ignored should be listed on its own line, and the at the start of that line: ie no blank spaces
+# there is no need to end the line with a comma or a semi-colon
+
+# to list a file that is contained within the root directory of a project, simply give its name, eg for V:/hi_phpenv/phpenv/my_password.php, simply write:
+# mypassword.php
+
+# to list an entire folder whose contents should be ignord, give the directory name followed by a forward slash and a star, eg:
+# sensitive_folder/*
+
+# for more rules on ignoring files in github, go to: https://help.github.com/articles/ignoring-files/
+
+
+
+
+
+# IGNORE THE FOLLOWING FILES/FOLDERS
+
+https://gist.github.com/Swader/7844111
