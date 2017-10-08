@@ -1,4 +1,4 @@
 <?php
-    echo "Welcome to PHP ENV";
+    echo "Hello " . ( isset($_GET['name'] ) ? $_GET['name'] : "World" );
     
     exit();
